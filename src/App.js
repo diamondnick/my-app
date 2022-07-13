@@ -14,7 +14,6 @@ function Dog() {
   return (
     <div className="App">
       <header className="App-header">
-        <img height={133} src={name} />
         <img src={logo} className="App-logo" alt="logo" />
       </header>
     </div>
