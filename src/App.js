@@ -1,8 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import { Ed25519Provider } from 'key-did-provider-ed25519'
-import KeyResolver from 'key-did-resolver'
-import { DID } from 'dids'
 import { EthereumAuthProvider, SelfID } from '@self.id/web'
 
 // The following assumes there is an injected `window.ethereum` provider
