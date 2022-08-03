@@ -5,6 +5,13 @@ import KeyResolver from 'key-did-resolver'
 import { DID } from 'dids'
 import { EthereumAuthProvider, SelfID } from '@self.id/web'
 
+
+
+
+async function App() {
+
+
+ 
 // The following assumes there is an injected `window.ethereum` provider
 const addresses = await window.ethereum.request({
   method: 'eth_requestAccounts',
@@ -17,11 +24,8 @@ const self = await SelfID.authenticate({
   connectNetwork: 'testnet-clay',
 })
 
-await self.set('basicProfile', { name: 'Alice' })
+  await self.set('basicProfile', { name: 'Alice' })
 
-
-
-function App() {
   return (
     <Dog></Dog>
   
