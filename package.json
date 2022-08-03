@@ -10,7 +10,6 @@
     "@testing-library/user-event": "^13.5.0",
     "ipfs": "^0.63.5",
     "ipfsd-ctl": "^12.0.0",
-    "key-did-provider-ed25519": "^2.0.1",
     "node-cron": "^3.0.1",
     "orbit-db": "^0.28.6",
     "react": "^18.2.0",
