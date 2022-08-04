@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import KeyResolver from 'key-did-resolver'
+import { EthereumAuthProvider, SelfID } from '@self.id/web'
 
 
 
- function App() {
-/*
+
+async function App() {
+
+
  
 // The following assumes there is an injected `window.ethereum` provider
 const addresses = await window.ethereum.request({
@@ -20,11 +24,9 @@ const self = await SelfID.authenticate({
 
   await self.set('basicProfile', { name: 'Alice' })
 
-  */
-
   return (
     <Dog></Dog>
-
+  
   );
 }
 
